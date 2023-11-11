@@ -1,0 +1,35 @@
+body{
+    background: white;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container{
+    width: 170rem;
+    margin-top: 40px;
+    background: lightblue;
+    border-style: double;
+    border-color: rgb(215, 215, 215);
+    border: 15 px;
+    border-radius: 1rem;
+}
+
+.ln,.mn,.fn,.city,.gender,.age,.ph-no,.email,.referral,.submit{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+    padding-top: 15px;
+    border-top: 1px solid #D0D1D2;
+}
